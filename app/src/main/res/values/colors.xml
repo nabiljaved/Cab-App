@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#FEDE00</color>
+    <color name="colorAccent">#FF8A80</color>
+    <color name="grey_800">#838493</color>
+    <color name="limeGreen">#7dce94</color>
+    <color name="laundryBlue">#3a4660</color>
+    <color name="peachyCreme">#ed8a63</color>
+    <color name="aryaYellow">#feda6a</color>
+    <color name="thePurple">#600473</color>
+    <color name="redOverlaid">#cd5554</color>
+    <color name="classyGrey">#f1f0ee</color>
+</resources>

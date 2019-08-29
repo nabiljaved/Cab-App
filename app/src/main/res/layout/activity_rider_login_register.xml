@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerLoginRegisterActivity"
+    android:background="@drawable/customer_login"
+    >
+
+
+    <ImageView
+        android:layout_width="183dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/nabeel_ride_logo" />
+
+    <TextView
+        android:id="@+id/text_login_batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:text="DRIVER LOGIN"
+        android:textAlignment="center"
+        android:textColor="#feda6a"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/text_driv_email"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="EMAIL...."
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/text_driv_pass"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:ems="10"
+        android:hint="PASSWORD...."
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:background="#FF0000"
+        android:text="LOGIN"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Dont Have an Account? click Here"
+        android:textAlignment="center"
+        android:textColor="#feda6a"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="#FF0000"
+        android:text="REGISTER"
+        android:textSize="20sp"
+
+        />
+
+</RelativeLayout>

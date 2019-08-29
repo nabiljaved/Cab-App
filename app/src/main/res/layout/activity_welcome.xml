@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/welcome"
+    >
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            >
+
+        </include>
+
+
+    <ImageView
+        android:layout_width="183dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:src="@drawable/nabeel_ride_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:text="Hi there
+ Welcome to Nabeel Ride"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="22sp" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="#FF0000"
+        android:text=" I AM RIDER" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="#FF0000"
+        android:text="I AM CUSTOMER" />
+
+
+</RelativeLayout>

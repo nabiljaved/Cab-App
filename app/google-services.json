@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065829005547",
+    "firebase_url": "https://cab-app-7a1bf.firebaseio.com",
+    "project_id": "cab-app-7a1bf",
+    "storage_bucket": "cab-app-7a1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065829005547:android:c9b39f2fd1cf332a",
+        "android_client_info": {
+          "package_name": "com.nabeeljaved.app.nabeelride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065829005547-baupqnd5jlhv7v5nmdmqanr5kaap9gmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nabeeljaved.app.nabeelride",
+            "certificate_hash": "a6e97458f4b5a4021892648a53b6765593843fb8"
+          }
+        },
+        {
+          "client_id": "1065829005547-oqqnvk14ajkbnqoo76c0trp0139rjaai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAsMbCndmJpbYBZfSDvHOWxVubTjAxJCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065829005547-oqqnvk14ajkbnqoo76c0trp0139rjaai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
